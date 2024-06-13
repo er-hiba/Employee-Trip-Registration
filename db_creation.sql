@@ -23,8 +23,8 @@ Query OK, 0 rows affected (0.04 sec)
 mysql> CREATE TABLE TripDescription (
     -> descCode INT AUTO_INCREMENT PRIMARY KEY,
     -> description VARCHAR(255) NOT NULL,
-    -> startCity VARCHAR(50) NOT NULL,
-    -> endCity VARCHAR(50) NOT NULL
+    -> departureCity VARCHAR(50) NOT NULL,
+    -> arrivalCity VARCHAR(50) NOT NULL
     -> );
 Query OK, 0 rows affected (0.03 sec)
 
