@@ -59,7 +59,7 @@ $position = $_SESSION['position'];
                             href="register.php">Register</a></li>
                     <li class="<?php echo ($currentPage == 'registrations') ? 'active' : ''; ?>"><a
                             href="registrations.php">List of
-                            Regestrations</a></li>
+                            Registrations</a></li>
                     <li class="<?php echo ($currentPage == 'logout') ? 'active' : ''; ?>"><a
                             href="logout.php">Logout</a></li>
                 </ul>
