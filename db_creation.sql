@@ -29,7 +29,7 @@ mysql> CREATE TABLE TripDescription (
 Query OK, 0 rows affected (0.03 sec)
 
 mysql> CREATE TABLE Trip (
-    -> tripCode INT PRIMARY KEY,
+    -> tripCode INT AUTO_INCREMENT PRIMARY KEY,
     -> transCode INT,
     -> descCode INT,
     -> ticketPrice DECIMAL(10, 2) NOT NULL,
